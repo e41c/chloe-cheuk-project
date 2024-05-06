@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { Children } from 'react'
 import Nav from '../components/Nav'
+import MainLayout from '../layouts/MainLayout'
 
 function ProjectPage() {
   return (
-    <div>
-      <Nav />
-      <h1>Projects</h1>
-    </div>
+    <MainLayout>
+      <div>Project Page</div>
+    </MainLayout>
   )
 }
 

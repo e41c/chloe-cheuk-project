@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider, Route, } from 'react-router-dom'
 import ProjectPage from './pages/ProjectPage.jsx'
+import StatementPage from './pages/StatementPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: '/projectpage',
     element: <ProjectPage />
+  },
+  {
+    path: '/statementpage',
+    element: <StatementPage />
   },
 ])
 
