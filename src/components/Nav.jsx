@@ -14,17 +14,6 @@ export default function Nav() {
       <li><a>Bio</a></li>
       <li><a>CV</a></li>
       <li><a>Press</a></li>
-      <li>
-        <details>
-          <summary>
-            Social
-          </summary>
-          <ul className="p-2 bg-base-100 rounded-t-none">
-            <li><a>Link 1</a></li>
-            <li><a>Link 2</a></li>
-          </ul>
-        </details>
-      </li>
     </ul>
   </div>
 </div>
