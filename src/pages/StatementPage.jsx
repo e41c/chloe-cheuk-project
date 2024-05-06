@@ -1,5 +1,6 @@
 import React from 'react'
 import MainLayout from '../layouts/MainLayout'
+// components
 import Statement from '../components/Statement'
 
 function StatementPage() {

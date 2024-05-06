@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider, Route, } from 'react-router-dom'
-import ProjectPage from './pages/ProjectPage.jsx'
+import WorkPage from './pages/WorkPage.jsx'
 import StatementPage from './pages/StatementPage.jsx'
 
 const router = createBrowserRouter([
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: '/projectpage',
-    element: <ProjectPage />
+    path: '/workpage',
+    element: <WorkPage />
   },
   {
     path: '/statementpage',

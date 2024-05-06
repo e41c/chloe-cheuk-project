@@ -1,0 +1,18 @@
+{
+    "title": "Project Details",
+    "sections": [
+      {
+        "heading": "Overview",
+        "content": "This project involves..."
+      },
+      {
+        "heading": "Specifications",
+        "content": "The specifications are..."
+      },
+      {
+        "heading": "Results",
+        "content": "The results showed..."
+      }
+    ]
+  }
+  

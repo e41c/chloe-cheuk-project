@@ -10,7 +10,7 @@ export default function Nav() {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
       <li><Link to="/statementpage">Statement</Link></li>
-      <li><Link to="/projectpage">Projects</Link></li>
+      <li><Link to="/workpage">Work</Link></li>
       <li><a>Bio</a></li>
       <li><a>CV</a></li>
       <li><a>Press</a></li>
